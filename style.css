@@ -1,0 +1,145 @@
+body{
+    
+    background-color: #FFF6DC; 
+    /* background-color: pink; */
+    /* background-image: url(./assets/download.jpeg); */
+    /* opacity: 0.3; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* color: white; */
+    
+}
+
+.full{
+    background-color: #ff433a;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+#head{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Libre Caslon Text', serif;
+    text-align: center;
+    margin:0;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+}
+.containe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    margin-bottom: 30px;
+    
+}
+.template{
+    margin: 40px;
+    border-radius: 5%;
+}
+div>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 250px;
+    border-radius: 5% 5% 0% 0%;
+}
+
+h3{
+    margin: 0;
+    margin: 5px;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding: 0%;
+    font-size: 1.5rem;
+}
+p{
+    margin-left: 5px;
+    margin-bottom: 2px;
+    padding: 0;
+    text-align: left;
+}
+.but{
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to right,#ff433a,#ff577c);
+    margin: 5px;
+    margin-top:7px;
+    padding: 5px;
+}
+
+@media  (max-width:530px)  {
+    .containe{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.template{
+    min-width: 150px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+ 
+} 
+@media   (min-width:480px) and (max-width:850px){
+    .containe{
+     display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr  1fr 1fr ;
+}
+.template{
+    min-width: 200px;
+}
+} 
+div.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.foot_foot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ParaInFoot{
+    padding: 0; 
+    margin: 0; 
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-right: 100px;
+}
+.contact{
+    margin-right: 10px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+#Instagram{
+    display: flex;
+    flex-direction: row;
+    
+}
+#copy{
+    align-self: flex-start;
+    padding-right: 50px;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius:10px ;
+    width: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
